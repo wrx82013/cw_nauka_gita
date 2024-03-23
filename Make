@@ -1,0 +1,6 @@
+target(lib): wymagania_wstepne
+	pip install -r requirements.txt
+test:
+	pytest test.py
+run: test
+	flask run
